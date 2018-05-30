@@ -1,5 +1,52 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* === HEADER === */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../pictures/header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20vh;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+}
+
+header h1 {
+  font-size: 54px;
+  max-width: 583px;
+  margin: 0 auto;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+header p {
+  font-size: 15px;
+  max-width: 583px;
+  margin: 0 auto;
+  margin-top: 35px;
+  line-height: 1.933;
+}
+
+header > img {
+  max-width: 23px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90vh;
 }
 
 
@@ -17,7 +64,7 @@
 [class*="col-"] {
   float: left;
   min-height: 1px;
-  padding: 10px;
+  padding: 10px;  /*Ustalić  */
 }
 
 .col-1 {width: 8.33%;}
