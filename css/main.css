@@ -49,6 +49,37 @@ header > img {
   top: 90vh;
 }
 
+/* === ABOUT === */
+
+.about {
+  text-align: center;
+  color: #3c3c3c;
+  height: 58vh;
+  padding: 12vh 0;
+}
+
+.about .framed {
+  height: 29vh;
+}
+
+.framed {      /*=== GLOBAL ===*/
+  border: 1px solid #3c3c3c;
+}
+
+.framed h2 {      /*=== GLOBAL ===*/
+  width: 22vw;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+  top: -25px;
+}
+
+.framed p {        /*=== GLOBAL ===*/
+  font-size: 16px;       /*change font size and padding for other screen size*/
+  line-height: 24px;
+  margin: 0 8vw;
+}
+
 
 /*=== CLEARFIX ===*/
 .row::before,
@@ -79,3 +110,5 @@ header > img {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+.col-offset-3 {margin-left: 25%;}
