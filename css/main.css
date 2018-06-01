@@ -72,6 +72,7 @@ header > img {
   margin: 0 auto;
   position: relative;
   top: -25px;
+  text-transform: uppercase;
 }
 
 .framed p {        /*=== GLOBAL ===*/
@@ -97,6 +98,38 @@ header > img {
 
 .services .title {
   background: none;
+}
+
+/* === WHAT WE DO === */
+
+h3 {
+  text-transform: uppercase;
+}
+
+.what {
+  height: 130vh;
+  padding: 15vh 0;
+}
+
+.what .framed {
+  height: 110vh;
+}
+
+.wrapper {
+  height: 90vh;
+  padding: 5vh;
+}
+
+.wrapper p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.wrapper h3 {
+  font-size: 20px;
+}
+
+.wrapper img {
+  padding-top: 10px;
 }
 
 /*=== CLEARFIX ===*/
