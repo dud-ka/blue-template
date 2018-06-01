@@ -52,10 +52,8 @@ header > img {
 /* === ABOUT === */
 
 .about {
-  text-align: center;
-  color: #3c3c3c;
   height: 58vh;
-  padding: 12vh 0;
+  padding: 15vh 0;
 }
 
 .about .framed {
@@ -64,11 +62,13 @@ header > img {
 
 .framed {      /*=== GLOBAL ===*/
   border: 1px solid #3c3c3c;
+  text-align: center;
+  color: #3c3c3c;
 }
 
-.framed h2 {      /*=== GLOBAL ===*/
+.title {      /*=== GLOBAL ===*/
   width: 22vw;
-  background: white;
+  background: #fff;
   margin: 0 auto;
   position: relative;
   top: -25px;
@@ -80,6 +80,24 @@ header > img {
   margin: 0 8vw;
 }
 
+/* === SERVICES === */
+.services {
+  height: 45vh;
+  padding: 12vh 0;
+  background-image: url("../pictures/services-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services .framed {
+  border-color: #fff;
+  color: #fff;
+  height: 23vh;
+}
+
+.services .title {
+  background: none;
+}
 
 /*=== CLEARFIX ===*/
 .row::before,
