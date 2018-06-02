@@ -16,7 +16,6 @@ header {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   text-align: center;
-  text-transform: uppercase;
   padding-top: 20vh;
   position: relative;
 }
@@ -138,48 +137,48 @@ h3 {
 
 /*=== GALLERY ===*/
 /* .gallery {
-  max-height: 490px;
+max-height: 490px;
 }
 .gallery h3 {
-  text-transform: uppercase;
+text-transform: uppercase;
 }
 .topworkz {
-  background-image: url("../pictures/topworkz.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/topworkz.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 }
 
 .joint {
-  background-image: url("../pictures/joint.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/joint.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 }
 .market {
-  background-image: url("../pictures/market.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/market.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 }
 .worktop {
-  background-image: url("../pictures/worktop.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/worktop.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 }
 .lable {
-  background-image: url("../pictures/lable.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/lable.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 }
 
 .kyiv {
-  background-image: url("../pictures/kyiv.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
+background-image: url("../pictures/kyiv.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 240px;
 } */
 
 /*=== CONTACT ===*/
@@ -192,6 +191,24 @@ h3 {
   font-size: 16px;
   color: #fff;
   margin: 20px
+}
+
+/*=== FOOTER ===*/
+footer {
+  text-align: center;
+  height:80px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer p,
+footer img {
+  display: inline-block;
+}
+
+footer img {
+  position: relative;
+  top: 12px;
 }
 
 /*=== CLEARFIX ===*/
