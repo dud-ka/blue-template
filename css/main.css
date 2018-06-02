@@ -49,6 +49,10 @@ header > img {
   top: 90vh;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 /* === ABOUT === */
 
 .about {
@@ -132,6 +136,64 @@ h3 {
   padding-top: 10px;
 }
 
+/*=== GALLERY ===*/
+/* .gallery {
+  max-height: 490px;
+}
+.gallery h3 {
+  text-transform: uppercase;
+}
+.topworkz {
+  background-image: url("../pictures/topworkz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+
+.joint {
+  background-image: url("../pictures/joint.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+.market {
+  background-image: url("../pictures/market.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+.worktop {
+  background-image: url("../pictures/worktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+.lable {
+  background-image: url("../pictures/lable.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+
+.kyiv {
+  background-image: url("../pictures/kyiv.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+} */
+
+/*=== CONTACT ===*/
+.contact button {
+  background: #3c3c3c;
+  font-family: 'Lato', sans-serif;
+  width: 395px;
+  height: 58px;
+  border: 2px;
+  font-size: 16px;
+  color: #fff;
+  margin: 20px
+}
+
 /*=== CLEARFIX ===*/
 .row::before,
 .row::after {
@@ -139,7 +201,6 @@ h3 {
   display: table;
   clear: both;
 }
-
 
 /*=== GRID ===*/
 
