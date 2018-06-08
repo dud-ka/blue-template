@@ -55,13 +55,9 @@ h2 {
 /* === ABOUT === */
 
 .about {
-  height: 58vh;
   padding: 15vh 0;
 }
 
-.about .framed {
-  height: 29vh;
-}
 
 .framed {      /*=== GLOBAL ===*/
   border: 1px solid #3c3c3c;
@@ -81,12 +77,12 @@ h2 {
 .framed p {        /*=== GLOBAL ===*/
   font-size: 16px;       /*change font size and padding for other screen size*/
   line-height: 24px;
-  margin: 0 8vw;
+  margin: 0 2vw;
+  /* padding: 0 10px 20px; */
 }
 
 /* === SERVICES === */
 .services {
-  height: 45vh;
   padding: 12vh 0;
   background-image: url("../pictures/services-background.png");
   background-repeat: no-repeat;
@@ -96,7 +92,6 @@ h2 {
 .services .framed {
   border-color: #fff;
   color: #fff;
-  height: 23vh;
 }
 
 .services .title {
@@ -110,22 +105,12 @@ h3 {
 }
 
 .what {
-  height: 130vh;
   padding: 15vh 0;
-}
-
-.what .framed {
-  height: 110vh;
-}
-
-.wrapper {
-  height: 90vh;
-  padding: 5vh;
 }
 
 .wrapper p {
   font-size: 14px;
-  padding-top: 10px;
+  padding: 20px 8vw;
 }
 .wrapper h3 {
   font-size: 20px;
@@ -134,6 +119,7 @@ h3 {
 .wrapper img {
   padding-top: 10px;
 }
+
 
 /*=== GALLERY ===*/
 /* .gallery {
@@ -185,8 +171,8 @@ height: 240px;
 .contact button {
   background: #3c3c3c;
   font-family: 'Lato', sans-serif;
-  width: 395px;
-  height: 58px;
+  width: 21vw;
+  height: 5vh;
   border: 2px;
   font-size: 16px;
   color: #fff;
@@ -196,7 +182,7 @@ height: 240px;
 /*=== FOOTER ===*/
 footer {
   text-align: center;
-  height:80px;
+  height: 80px;
   width: 100%;
   margin: 0 auto;
 }
@@ -209,6 +195,10 @@ footer img {
 footer img {
   position: relative;
   top: 12px;
+}
+
+.contact p {
+  padding: 0 8vw;
 }
 
 /*=== CLEARFIX ===*/
