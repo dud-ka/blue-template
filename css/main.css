@@ -122,50 +122,79 @@ h3 {
 
 
 /*=== GALLERY ===*/
-/* .gallery {
-max-height: 490px;
+.gallery [class*="col-"] {
+  position: relative;
+  padding: 0;
 }
+.gallery img {
+  width: 100%;
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+
+.gallery img:hover {
+  opacity: 0.5;
+}
+
 .gallery h3 {
-text-transform: uppercase;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: #fff;
 }
-.topworkz {
+
+.gallery .col-6 {
+  padding: 0 10px
+}
+
+.gallery {
+  /* line-height: 0; */
+  padding: 40px 0;
+  margin: 0;
+}
+
+
+/* .topworkz {
 background-image: url("../pictures/topworkz.png");
 background-repeat: no-repeat;
 background-size: cover;
 height: 240px;
-}
+width: 100%;
+} */
 
-.joint {
+/* .joint {
 background-image: url("../pictures/joint.png");
 background-repeat: no-repeat;
 background-size: cover;
-height: 240px;
-}
-.market {
+/* height: 240px; */
+/* } */
+/* .market {
 background-image: url("../pictures/market.png");
 background-repeat: no-repeat;
-background-size: cover;
-height: 240px;
-}
+background-size: cover; */
+/* height: 240px; */
+/* }
 .worktop {
 background-image: url("../pictures/worktop.png");
 background-repeat: no-repeat;
-background-size: cover;
-height: 240px;
-}
+background-size: cover; */
+/* height: 240px; */
+/* }
 .lable {
 background-image: url("../pictures/lable.png");
 background-repeat: no-repeat;
-background-size: cover;
-height: 240px;
-}
+background-size: cover; */
+/* height: 240px; */
+/* }
 
 .kyiv {
 background-image: url("../pictures/kyiv.png");
 background-repeat: no-repeat;
-background-size: cover;
-height: 240px;
-} */
+background-size: cover; */
+/* height: 240px; */
+/* } */
+
 
 /*=== CONTACT ===*/
 .contact button {
