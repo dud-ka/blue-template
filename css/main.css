@@ -78,7 +78,6 @@ h2 {
   font-size: 16px;       /*change font size and padding for other screen size*/
   line-height: 24px;
   margin: 0 2vw;
-  /* padding: 0 10px 20px; */
 }
 
 /* === SERVICES === */
@@ -149,51 +148,9 @@ h3 {
 }
 
 .gallery {
-  /* line-height: 0; */
   padding: 40px 0;
   margin: 0;
 }
-
-
-/* .topworkz {
-background-image: url("../pictures/topworkz.png");
-background-repeat: no-repeat;
-background-size: cover;
-height: 240px;
-width: 100%;
-} */
-
-/* .joint {
-background-image: url("../pictures/joint.png");
-background-repeat: no-repeat;
-background-size: cover;
-/* height: 240px; */
-/* } */
-/* .market {
-background-image: url("../pictures/market.png");
-background-repeat: no-repeat;
-background-size: cover; */
-/* height: 240px; */
-/* }
-.worktop {
-background-image: url("../pictures/worktop.png");
-background-repeat: no-repeat;
-background-size: cover; */
-/* height: 240px; */
-/* }
-.lable {
-background-image: url("../pictures/lable.png");
-background-repeat: no-repeat;
-background-size: cover; */
-/* height: 240px; */
-/* }
-
-.kyiv {
-background-image: url("../pictures/kyiv.png");
-background-repeat: no-repeat;
-background-size: cover; */
-/* height: 240px; */
-/* } */
 
 
 /*=== CONTACT ===*/
@@ -243,7 +200,7 @@ footer img {
 [class*="col-"] {
   float: left;
   min-height: 1px;
-  padding: 10px;  /*Ustalić  */
+  padding: 10px;
 }
 
 .col-1 {width: 8.33%;}
