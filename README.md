@@ -1,4 +1,4 @@
-# https://dud-ka.github.io/blue-template/html/
+# https://kjanota.github.io/blue-template/html/
 
 
 
